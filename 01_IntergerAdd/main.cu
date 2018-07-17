@@ -6,11 +6,11 @@ __global__ void AddIntsCuda(int *a, int *b){
 	a[0] +=b[0]*b[0];
 }
 
-
 // Basic implementation of CUDA
 
 int main(){
 	
+	// Initialize host variables
 	int h_a=2, h_b=3;
 	int *d_a, *d_b; //Device pointer
 
