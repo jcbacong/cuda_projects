@@ -8,6 +8,7 @@ __global__ void AddIntsCuda(int *a, int *b){
 
 // Main program of host
 int main(){
+
 	// Initialize host variables
 	int h_a=2, h_b=3;
 	int *d_a, *d_b; //Device pointer
