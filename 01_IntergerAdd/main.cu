@@ -6,8 +6,7 @@ __global__ void AddIntsCuda(int *a, int *b){
 	a[0] +=b[0]*b[0];
 }
 
-// Basic implementation of CUDA
-
+// Main program of host
 int main(){
 	
 	// Initialize host variables
